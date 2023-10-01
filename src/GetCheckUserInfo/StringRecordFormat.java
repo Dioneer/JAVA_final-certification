@@ -1,6 +1,12 @@
 package GetCheckUserInfo;
 
 public class StringRecordFormat extends CheckInfo{
+    private String name;
+    private String surName;
+    private String patronymic;
+    private String birthDay;
+    private int phoneNumber;
+    private char sex;
     public StringRecordFormat(String name, String surName, String patronymic, String birthDay, int phoneNumber, char sex){
         this.surName = surName;
         this.name = name;

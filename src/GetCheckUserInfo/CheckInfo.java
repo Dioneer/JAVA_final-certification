@@ -1,17 +1,15 @@
 package GetCheckUserInfo;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.ListIterator;
 
 public class CheckInfo {
-    String name;
-    String surName;
-    String patronymic;
-    String birthDay;
-    int phoneNumber;
-    char sex;
+    private String name;
+    private String surName;
+    private String patronymic;
+    private String birthDay;
+    private int phoneNumber;
+    private char sex;
     private ArrayList<String> array;
     public CheckInfo() {
 
